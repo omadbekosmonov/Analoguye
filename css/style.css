@@ -1,0 +1,280 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background-color: #e8a410;
+	color: #1f1f1f;
+}
+ol,
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1, 5px;
+	letter-spacing: 0, 2px;
+	color: #1f1f1f;
+}
+
+.container {
+	max-width: 1160px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.site-header {
+	padding-top: 24px;
+	padding-bottom: 20px;
+}
+
+.site-header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.site-header-logo {
+	display: flex;
+}
+.site-header-logo :hover {
+	opacity: 0, 8;
+}
+.site-header-list {
+	display: flex;
+}
+.site-header-item {
+	margin-right: 26px;
+}
+.site-header-link {
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22, 4px;
+	letter-spacing: 0%;
+	color: #1f1f1f;
+	transition: all 0.4s ease;
+}
+.site-header-link:hover {
+	color: #e8a410;
+}
+.site-header-link :active {
+	opacity: 0.6;
+}
+
+/* hero start */
+.main-content {
+	padding-top: 100px;
+}
+.hero {
+	padding-top: 100px;
+	padding-bottom: 124px;
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.25;
+	letter-spacing: 0.2px;
+	color: #1f1f1f;
+	max-width: 935px;
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.hero-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-circle {
+	width: 32px;
+	height: 32px;
+	background-color: #c4c4c4;
+	border-radius: 50%;
+}
+
+.hero-text-wrapper {
+	max-width: 736px;
+	width: 100%;
+	display: flex;
+}
+
+.hero-text:not(:last-child) {
+	margin-right: 41px;
+}
+
+/* recent-work start*/
+.site-section {
+	padding-top: 101px;
+	padding-bottom: 101px;
+}
+
+.part-two-header {
+	padding-bottom: 50px;
+}
+.part-two-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.part-two-left {
+}
+.part-two-left-list {
+	width: 520px;
+	height: 811px;
+}
+.part-two-left-header {
+	font-family: 'inter' sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 33.6px;
+	letter-spacing: 0.2px;
+	color: #464542;
+}
+.part-two-right {
+}
+.part-two-right-list {
+}
+.part-two-right-header {
+}
+/* recent-work en */
+
+.btna-reps {
+	padding-top: 100px;
+	padding: 12px 24px;
+	background-color: #1f1f1f;
+	color: #fff;
+}
+.btna-reps:hover {
+	color: #e8a410;
+	background-color: #f7f6f3;
+}
+.btna-reps:active {
+	opacity: 0, 9;
+}
+.btn {
+	padding: 12px 24px;
+	background-color: #1f1f1f;
+	color: #fff;
+}
+.btn:hover {
+	color: #1f1f1f;
+	background-color: #f7f6f3;
+}
+/* SOME START */
+
+.some {
+	background-color: #f7f6f3;
+	margin-bottom: 8px;
+	padding-top: 80px;
+	padding-bottom: 104px;
+}
+
+.some-title {
+	font-family: 'Libre Baskerville' serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 49.4px;
+	letter-spacing: 0.2px;
+	text-align: center;
+
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 1.2;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #1f1f1f;
+	margin-bottom: 36px;
+}
+.line {
+	height: 1px;
+	background-color: #6b6d67;
+}
+.some-list {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 63px;
+}
+.some-item {
+}
+.some_img {
+}
+
+/* redy-start */
+.ready {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background-color: #e0f391;
+}
+
+.redy-inner {
+	margin-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ready-title {
+	font-family: 'Libre Baskerville' serif;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+}
+
+/* Footer-Start */
+
+.futeer {
+	width: 100%;
+	background-color: #1f1f1f;
+}
+
+.footer-img {
+	padding-top: 80px;
+}
+.paragraf {
+	margin-top: 100px;
+	color: #fff;
+}
+.line {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.Stay-left {
+	color: #fff;
+}
+.paragraf-2 {
+	display: flex;
+	color: #fff;
+	margin-top: 50px;
+}
+.Stay-right {
+	display: flex;
+	gap: 20px;
+}
+.para3 {
+	color: #fff;
+	text-align: right;
+	margin-left: auto;
+	margin-bottom: 20px;
+	padding-bottom: px;
+}
+.para-3 {
+	color: #fff;
+	margin-bottom: 20px;
+}
